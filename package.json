@@ -1,8 +1,5 @@
 {
   "name": "tyylisivu-components",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/totskuri"
-  },
   "version": "1.0.0",
   "description": "",
   "main": "dist/cjs/index.js",
