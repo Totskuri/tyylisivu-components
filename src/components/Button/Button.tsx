@@ -8,12 +8,13 @@ const Button = ({
     disabled = false,
     className = '',
 }: ButtonProps) => {
+    const getDisabledClass = () => disabled ? styles.disabled : '';
     return (
         <button
-            role="button"
+            type="button"
             onClick={(e) => onClick(e)}
             disabled={disabled}
-            className={`${styles.button} ${className}`}
+            className={`${styles.button} ${getDisabledClass()} ${className}`}
         >
             {children}
         </button>
