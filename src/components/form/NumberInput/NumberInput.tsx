@@ -1,5 +1,5 @@
 import React, {useRef} from "react";
-import {NumberInputProps} from "./NumberInput.types";
+import type {NumberInputProps} from "./NumberInput.types";
 import KeyboardListener, {KEY_ENTER, KEY_ESCAPE} from "../../../utils/KeyboardListener";
 import styles from '../../../css/input.module.css';
 import classNames from "../../../utils/classNames";

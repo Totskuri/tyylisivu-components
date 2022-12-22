@@ -1,5 +1,5 @@
 import React, {useRef} from "react";
-import {TextInputProps} from "./TextInput.types";
+import type {TextInputProps} from "./TextInput.types";
 import KeyboardListener, {KEY_ENTER, KEY_ESCAPE} from "../../../utils/KeyboardListener";
 import styles from '../../../css/input.module.css';
 import classNames from "../../../utils/classNames";

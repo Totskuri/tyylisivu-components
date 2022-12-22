@@ -32,16 +32,28 @@
     background-color: var(--ts-secondary-color-hover);
 }
 
-.transparent-light {
+.transparent-light, .transparent-light:hover {
     background: transparent;
     color: var(--ts-light-color);
     border: 1px solid var(--ts-light-color);
 }
 
-.transparent-dark {
+.transparent-dark, .transparent-dark:hover {
     background: transparent;
     color: var(--ts-dark-color);
     border: 1px solid var(--ts-dark-color);
+}
+
+.text-dark, .text-dark:hover {
+    background: transparent;
+    color: var(--ts-dark-color);
+    border: none;
+}
+
+.text-light, .text-light:hover {
+    background: transparent;
+    color: var(--ts-light-color);
+    border: none;
 }
 
 .disabled {

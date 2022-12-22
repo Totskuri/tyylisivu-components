@@ -1,5 +1,5 @@
 import React from "react";
-import {LabelProps} from "./Label.types";
+import type {LabelProps} from "./Label.types";
 import styles from './Label.module.css';
 import classNames from "../../../utils/classNames";
 
