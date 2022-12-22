@@ -1,0 +1,8 @@
+.label {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    margin-bottom: 0.25rem;
+}

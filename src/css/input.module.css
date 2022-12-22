@@ -1,0 +1,10 @@
+.input {
+    padding: var(--ts-input-padding);
+    border-radius: var(--ts-input-border-radius);
+    border: var(--ts-input-border);
+    color: var(--ts-dark-color);
+}
+
+.readonly {
+    background-color: var(--ts-input-bg-color-readonly);
+}

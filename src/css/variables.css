@@ -1,0 +1,23 @@
+:root {
+    --ts-primary-color: #1e88e5;
+    --ts-primary-color-hover: #1976d2;
+    --ts-secondary-color: #00acc1;
+    --ts-secondary-color-hover: #0097a7;
+    --ts-dark-color: black;
+    --ts-light-color: white;
+
+    /* Button */
+    --ts-button-padding: 0.375rem 0.75rem;
+    --ts-button-bg-color: #4299e1;
+    --ts-button-bg-color-hover: #3a94df;
+    --ts-button-bg-color-disabled: #6c757d;
+    --ts-button-text-color: white;
+    --ts-button-border: none;
+    --ts-button-border-radius: 0.25rem;
+
+    /* Input */
+    --ts-input-padding: 0.5rem 1rem;
+    --ts-input-border-radius: 0.25rem;
+    --ts-input-border: 1px solid #4299e1;
+    --ts-input-bg-color-readonly: #e5e7eb;
+}
