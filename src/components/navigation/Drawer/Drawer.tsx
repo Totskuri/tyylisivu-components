@@ -2,7 +2,6 @@ import React, {useRef} from "react";
 import type {DrawerProps} from "./Drawer.types";
 import styles from './Drawer.module.css';
 import classNames from "../../../utils/classNames";
-import {CloseIcon} from "../../../utils/icons";
 import useOnClickOutside from "../../../hooks/useOnClickOutside";
 
 const Drawer = ({
@@ -25,15 +24,6 @@ const Drawer = ({
             ])}
             style={style}
         >
-            <div className={styles.top}>
-                <button
-                    type="button"
-                    onClick={handleClose}
-                    className={styles.close}
-                >
-                    <CloseIcon />
-                </button>
-            </div>
             {children}
         </div>
     );

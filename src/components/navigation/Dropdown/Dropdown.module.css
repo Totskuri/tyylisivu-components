@@ -1,0 +1,29 @@
+.dropdown {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+}
+
+.content {
+    display: none;
+    z-index: 10;
+    flex-direction: column;
+    padding: 5px 10px;
+    position: absolute;
+    top: 100%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 0.25rem;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.1);
+}
+
+.open {
+    display: flex;
+}

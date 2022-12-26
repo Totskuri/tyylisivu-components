@@ -13,15 +13,3 @@
     left: 0;
     box-shadow: var(--ts-drawer-box-shadow);
 }
-
-.top {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.close {
-    border: none;
-    background: transparent;
-    cursor: pointer;
-    padding: var(--ts-drawer-top-padding);
-}
