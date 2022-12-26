@@ -20,4 +20,13 @@
     --ts-input-border-radius: 0.25rem;
     --ts-input-border: 1px solid #4299e1;
     --ts-input-bg-color-readonly: #e5e7eb;
+
+    /* Drawer */
+    --ts-drawer-z-index: 1050;
+    --ts-drawer-transition: left 0.2s ease;
+    --ts-drawer-width: 300px;
+    --ts-drawer-height: 100vh;
+    --ts-drawer-bg-color: white;
+    --ts-drawer-box-shadow: 0 0 10px 5px rgb(0 0 0 / 10%);
+    --ts-drawer-top-padding: 1rem;
 }

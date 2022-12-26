@@ -1,0 +1,27 @@
+.drawer {
+    position: fixed;
+    top: 0;
+    left: calc(var(--ts-drawer-width) * -1);
+    z-index: var(--ts-drawer-z-index);
+    transition: var(--ts-drawer-transition);
+    width: var(--ts-drawer-width);
+    height: var(--ts-drawer-height);
+    background-color: var(--ts-drawer-bg-color);
+}
+
+.open {
+    left: 0;
+    box-shadow: var(--ts-drawer-box-shadow);
+}
+
+.top {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.close {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    padding: var(--ts-drawer-top-padding);
+}
