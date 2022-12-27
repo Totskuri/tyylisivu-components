@@ -28,4 +28,11 @@
     --ts-drawer-height: 100vh;
     --ts-drawer-bg-color: white;
     --ts-drawer-box-shadow: 0 0 10px 5px rgb(0 0 0 / 10%);
+
+    /* Dropdown */
+    --ts-dropdown-z-index: 1000;
+    --ts-dropdown-bg-color: white;
+    --ts-dropdown-border-radius: 0.25rem;
+    --ts-dropdown-box-shadow: 0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.1);
+    --ts-dropdown-display: block;
 }

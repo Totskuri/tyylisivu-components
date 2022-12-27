@@ -7,6 +7,7 @@ import useOnClickOutside from "../../../hooks/useOnClickOutside";
 const Dropdown = ({
     children,
     items,
+    align = 'center',
     className = '',
     style = {},
 }: DropdownTypes) => {
@@ -20,6 +21,7 @@ const Dropdown = ({
     },
     [isOpen]);
     useOnClickOutside(ref, handleClickOutside);
+    const getAlignClass = () => styles[align];
     const getOpenClass = () => isOpen ? styles.open : '';
     return (
         <div
@@ -42,6 +44,7 @@ const Dropdown = ({
             <div
                 className={classNames([
                     styles.content,
+                    getAlignClass(),
                     getOpenClass()
                 ])}
             >
