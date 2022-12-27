@@ -38,4 +38,7 @@
 
     /* Section */
     --ts-section-padding: 3rem;
+
+    /* Container */
+    --ts-container-max-width: 1320px;
 }
