@@ -1,5 +1,6 @@
 import React, {useRef} from "react";
 import type {DrawerProps} from "./Drawer.types";
+import '../../../css/variables.css';
 import styles from './Drawer.module.css';
 import classNames from "../../../utils/classNames";
 import useOnClickOutside from "../../../hooks/useOnClickOutside";

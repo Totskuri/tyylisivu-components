@@ -1,5 +1,6 @@
 import React from "react";
 import type {ContainerProps} from "./Container.types";
+import '../../../css/variables.css';
 import styles from './Container.module.css';
 import classNames from '../../../utils/classNames';
 

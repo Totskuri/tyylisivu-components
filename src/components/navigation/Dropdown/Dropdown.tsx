@@ -1,5 +1,6 @@
 import React, {useCallback, useRef, useState} from "react";
 import type {DropdownTypes} from "./Dropdown.types";
+import '../../../css/variables.css';
 import styles from './Dropdown.module.css';
 import classNames from "../../../utils/classNames";
 import useOnClickOutside from "../../../hooks/useOnClickOutside";

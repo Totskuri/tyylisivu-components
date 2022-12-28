@@ -1,6 +1,7 @@
 import React, {useRef} from "react";
 import type {TextInputProps} from "./TextInput.types";
 import KeyboardListener, {KEY_ENTER, KEY_ESCAPE} from "../../../utils/KeyboardListener";
+import '../../../css/variables.css';
 import styles from '../../../css/input.module.css';
 import classNames from "../../../utils/classNames";
 

@@ -1,6 +1,6 @@
 {
   "name": "tyylisivu-components",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "description": "",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -9,11 +9,13 @@
   ],
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "ladle": "ladle serve"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@ladle/react": "^2.4.5",
     "@rollup/plugin-commonjs": "^24.0.0",
     "@rollup/plugin-node-resolve": "^15.0.1",
     "@rollup/plugin-terser": "^0.2.0",

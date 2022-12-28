@@ -1,5 +1,6 @@
 import React from "react";
 import type {SectionProps} from "./Section.types";
+import '../../../css/variables.css';
 import styles from './Section.module.css';
 import classNames from '../../../utils/classNames';
 
