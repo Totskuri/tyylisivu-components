@@ -1,5 +1,5 @@
 export default {
-    outDir: "dist/ladle",
+    outDir: "docs",
     base: "./",
     addons: {
         a11y: {

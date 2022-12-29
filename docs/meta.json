@@ -1,0 +1,99 @@
+{
+  "about": {
+    "homepage": "https://www.ladle.dev",
+    "github": "https://github.com/tajo/ladle",
+    "version": 1
+  },
+  "stories": {
+    "element--section": {
+      "name": "Section",
+      "levels": [
+        "Element"
+      ],
+      "locStart": 11,
+      "locEnd": 24,
+      "filePath": "src/components/element/Section/Section.stories.tsx",
+      "meta": {}
+    },
+    "element--button": {
+      "name": "Button",
+      "levels": [
+        "Element"
+      ],
+      "locStart": 12,
+      "locEnd": 30,
+      "filePath": "src/components/element/Button/Button.stories.tsx",
+      "meta": {}
+    },
+    "helper--gap": {
+      "name": "Gap",
+      "levels": [
+        "Helper"
+      ],
+      "locStart": 11,
+      "locEnd": 25,
+      "filePath": "src/components/helper/Gap/Gap.stories.tsx",
+      "meta": {}
+    },
+    "layout--container": {
+      "name": "Container",
+      "levels": [
+        "Layout"
+      ],
+      "locStart": 11,
+      "locEnd": 24,
+      "filePath": "src/components/layout/Container/Container.stories.tsx",
+      "meta": {}
+    },
+    "form--label": {
+      "name": "Label",
+      "levels": [
+        "Form"
+      ],
+      "locStart": 11,
+      "locEnd": 26,
+      "filePath": "src/components/form/Label/Label.stories.tsx",
+      "meta": {}
+    },
+    "form--number-input": {
+      "name": "Number input",
+      "levels": [
+        "Form"
+      ],
+      "locStart": 11,
+      "locEnd": 35,
+      "filePath": "src/components/form/NumberInput/NumberInput.stories.tsx",
+      "meta": {}
+    },
+    "form--text-input": {
+      "name": "Text input",
+      "levels": [
+        "Form"
+      ],
+      "locStart": 11,
+      "locEnd": 35,
+      "filePath": "src/components/form/TextInput/TextInput.stories.tsx",
+      "meta": {}
+    },
+    "navigation--drawer": {
+      "name": "Drawer",
+      "levels": [
+        "Navigation"
+      ],
+      "locStart": 11,
+      "locEnd": 35,
+      "filePath": "src/components/navigation/Drawer/Drawer.stories.tsx",
+      "meta": {}
+    },
+    "navigation--dropdown": {
+      "name": "Dropdown",
+      "levels": [
+        "Navigation"
+      ],
+      "locStart": 11,
+      "locEnd": 27,
+      "filePath": "src/components/navigation/Dropdown/Dropdown.stories.tsx",
+      "meta": {}
+    }
+  }
+}

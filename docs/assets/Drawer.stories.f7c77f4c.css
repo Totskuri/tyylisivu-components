@@ -1,0 +1,1 @@
+._drawer_aii12_1{position:fixed;top:0;left:calc(var(--ts-drawer-width) * -1);z-index:var(--ts-drawer-z-index);transition:var(--ts-drawer-transition);width:var(--ts-drawer-width);height:var(--ts-drawer-height);background-color:var(--ts-drawer-bg-color)}._open_aii12_23{left:0;box-shadow:var(--ts-drawer-box-shadow)}
