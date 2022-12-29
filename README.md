@@ -20,9 +20,10 @@
 
 ## Key Features
 
+* Written in TypeScript
 * Minimal dependencies
-* Lightweight
-* Flexible
+* Lightweight and flexible
+* Change default styles with CSS variables
 
 
 ## How To Use
