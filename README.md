@@ -28,7 +28,7 @@
 ## How To Use
 
 ```bash
-$ npm install
+$ npm install tyylisivu-components
 ```
 
 
