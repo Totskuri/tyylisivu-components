@@ -27,6 +27,8 @@
 
 ## How To Use
 
+<a href="https://totskuri.github.io/tyylisivu-components">Documentation</a>
+
 ```bash
 $ npm install tyylisivu-components
 ```
