@@ -10,10 +10,8 @@ const NumberInput = ({
     onChange,
     min = undefined,
     max = undefined,
-    placeholder = '',
     readOnly = false,
     autoFocus = false,
-    maxLength = 524288,
     onSubmit = () => {},
     className = '',
     style = {},
@@ -46,13 +44,11 @@ const NumberInput = ({
                 className
             ])}
             style={style}
-            placeholder={placeholder}
             value={value}
             onChange={(e) => onChange(Number(e.target.value))}
             min={min}
             max={max}
             readOnly={readOnly}
-            maxLength={maxLength}
             autoFocus={autoFocus}
             onKeyDown={handleKeyPress}
             autoComplete="off"

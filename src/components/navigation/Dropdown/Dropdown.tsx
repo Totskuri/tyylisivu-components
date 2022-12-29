@@ -1,5 +1,5 @@
 import React, {useCallback, useRef, useState} from "react";
-import type {DropdownTypes} from "./Dropdown.types";
+import type {DropdownProps} from "./Dropdown.types";
 import '../../../css/variables.css';
 import styles from './Dropdown.module.css';
 import classNames from "../../../utils/classNames";
@@ -11,7 +11,7 @@ const Dropdown = ({
     align = 'center',
     className = '',
     style = {},
-}: DropdownTypes) => {
+}: DropdownProps) => {
     const ref = useRef<HTMLDivElement>(null);
     const [isOpen, setIsOpen] = useState<boolean>(false);
     const handleClickOutside = useCallback(

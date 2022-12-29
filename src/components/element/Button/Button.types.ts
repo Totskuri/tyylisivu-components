@@ -4,7 +4,7 @@ import {ComponentProps} from "../../../types/ComponentProps";
 export interface ButtonProps extends ComponentProps {
     children: React.ReactNode;
     onClick: MouseEventHandler<HTMLButtonElement>;
-    variation?: 'default' | 'primary' | 'secondary' | 'transparentDark'
+    variant?: 'default' | 'primary' | 'secondary' | 'transparentDark'
         | 'transparentLight' | 'textDark' | 'textLight';
     disabled?: boolean;
 }

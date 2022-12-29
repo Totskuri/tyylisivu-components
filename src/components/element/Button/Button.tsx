@@ -7,12 +7,12 @@ import classNames from '../../../utils/classNames';
 const Button = ({
     children,
     onClick,
-    variation = 'default',
+    variant = 'default',
     disabled = false,
     className = '',
     style = {},
 }: ButtonProps) => {
-    const getVariationClass = () => variation !== 'default' ? styles[variation] : '';
+    const getVariationClass = () => variant !== 'default' ? styles[variant] : '';
     const getDisabledClass = () => disabled ? styles.disabled : '';
     return (
         <button

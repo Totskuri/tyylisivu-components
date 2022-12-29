@@ -1,6 +1,6 @@
 {
   "name": "tyylisivu-components",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -10,7 +10,8 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "rollup -c",
-    "ladle": "ladle serve"
+    "serve-ladle": "ladle serve",
+    "build-ladle": "ladle build"
   },
   "author": "",
   "license": "ISC",

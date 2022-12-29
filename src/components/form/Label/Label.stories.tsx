@@ -1,12 +1,34 @@
 import React from "react";
 import Label from './Label';
+import {Story} from "@ladle/react";
+import {LabelProps} from "./Label.types";
+import componentDefaults from "../../../defaults/ComponentDefaults";
 
-export const Default = () => {
+export default {
+    title: "form",
+};
+
+export const Default: Story<LabelProps> = ({
+    children,
+    text,
+    className,
+    style
+}) => {
     return (
         <Label
-            text="Label text"
+            text={text}
+            className={className}
+            style={style}
         >
-            Label children
+            {children}
         </Label>
     )
 }
+
+Default.storyName = "Label";
+
+Default.args = {
+    text: 'Label text',
+    children: 'Label children',
+    ...componentDefaults
+};

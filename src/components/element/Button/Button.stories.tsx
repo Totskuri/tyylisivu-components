@@ -1,89 +1,48 @@
 import React from "react";
 import Button from './Button';
+import {action} from "@ladle/react";
+import type {Story} from "@ladle/react";
+import {ButtonProps} from "./Button.types";
+import componentDefaults from "../../../defaults/ComponentDefaults";
 
-export const Default = () => {
+export default {
+    title: "element",
+};
+
+export const Default: Story<ButtonProps> = ({
+    children,
+    variant,
+    disabled,
+    className,
+    style
+}) => {
     return (
         <Button
-            onClick={() => alert('You clicked me!')}
+            onClick={action('onClick')}
+            variant={variant}
+            disabled={disabled}
+            className={className}
+            style={style}
         >
-            Click me!
+            {children}
         </Button>
     )
 }
 
-export const Primary = () => {
-    return (
-        <Button
-            onClick={() => alert('You clicked me!')}
-            variation="primary"
-        >
-            Click me!
-        </Button>
-    )
-}
+Default.storyName = "Button";
 
-export const Secondary = () => {
-    return (
-        <Button
-            onClick={() => alert('You clicked me!')}
-            variation="secondary"
-        >
-            Click me!
-        </Button>
-    )
-}
+Default.args = {
+    children: 'Click me!',
+    variant: 'default',
+    disabled: false,
+    ...componentDefaults
+};
 
-export const TransparentDark = () => {
-    return (
-        <Button
-            onClick={() => alert('You clicked me!')}
-            variation="transparentDark"
-        >
-            Click me!
-        </Button>
-    )
-}
+Default.argTypes = {
+    variant: {
+        options: ['default', 'primary', 'secondary', 'transparentDark', 'transparentLight', 'textDark', 'textLight'],
+        control: {type: "select"},
+        defaultValue: "default",
+    },
+};
 
-export const TransparentLight = () => {
-    return (
-        <Button
-            onClick={() => alert('You clicked me!')}
-            variation="transparentLight"
-        >
-            Click me!
-        </Button>
-    )
-}
-
-export const TextDark = () => {
-    return (
-        <Button
-            onClick={() => alert('You clicked me!')}
-            variation="textDark"
-        >
-            Click me!
-        </Button>
-    )
-}
-
-export const TextLight = () => {
-    return (
-        <Button
-            onClick={() => alert('You clicked me!')}
-            variation="textLight"
-        >
-            Click me!
-        </Button>
-    )
-}
-
-export const Disabled = () => {
-    return (
-        <Button
-            onClick={() => alert('You clicked me!')}
-            disabled
-        >
-            Click me!
-        </Button>
-    )
-}

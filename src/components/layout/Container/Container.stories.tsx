@@ -1,10 +1,31 @@
 import React from "react";
-import Container from './Container';
+import {Story} from "@ladle/react";
+import componentDefaults from "../../../defaults/ComponentDefaults";
+import Container from "./Container";
+import {ContainerProps} from "./Container.types";
 
-export const Default = () => {
+export default {
+    title: "layout",
+};
+
+export const Default: Story<ContainerProps> = ({
+    children,
+    className,
+    style
+}) => {
     return (
-        <Container>
-            Container children
+        <Container
+            className={className}
+            style={style}
+        >
+            {children}
         </Container>
     )
 }
+
+Default.storyName = "Container";
+
+Default.args = {
+    children: 'Container children',
+    ...componentDefaults
+};
