@@ -1,3 +1,8 @@
+/*
+ * Breakpoints:
+ * Md: 1024px
+ * Sm: 768px
+ */
 :root {
     --ts-primary-color: #1e88e5;
     --ts-primary-color-hover: #1976d2;
@@ -5,6 +10,8 @@
     --ts-secondary-color-hover: #0097a7;
     --ts-dark-color: black;
     --ts-light-color: white;
+    --ts-breakpoint-sm: 768px;
+    --ts-breakpoint-md: 1024px;
 
     /* Button */
     --ts-button-padding: 0.375rem 0.75rem;
@@ -41,4 +48,7 @@
 
     /* Container */
     --ts-container-max-width: 1140px;
+
+    /* Row */
+    --ts-row-gap: 1rem;
 }
