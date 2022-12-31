@@ -6,18 +6,19 @@ import classNames from '../../../utils/classNames';
 
 const Column = ({
     children,
-    size = 12,
-    sizeMd = 12,
-    sizeSm = 12,
+    size = undefined,
+    sizeMd = undefined,
+    sizeSm = undefined,
     className = '',
     style = {},
 }: ColumnProps) => {
-    const getSizeClass = () => styles[`size-${size}`];
-    const getSizeMdClass = () => styles[`size-md-${sizeMd}`];
-    const getSizeSmClass = () => styles[`size-sm-${sizeSm}`];
+    const getSizeClass = () => size ? styles[`size-${size}`] : '';
+    const getSizeMdClass = () => sizeMd ? styles[`size-md-${sizeMd}`] : '';
+    const getSizeSmClass = () => sizeSm ? styles[`size-sm-${sizeSm}`] : '';
     return (
         <div
             className={classNames([
+                styles.column,
                 getSizeClass(),
                 getSizeMdClass(),
                 getSizeSmClass(),
@@ -25,7 +26,9 @@ const Column = ({
             ])}
             style={style}
         >
-            {children}
+            <div className={styles.content}>
+                {children}
+            </div>
         </div>
     );
 };

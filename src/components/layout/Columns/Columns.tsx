@@ -1,18 +1,18 @@
 import React from "react";
-import type {RowProps} from "./Row.types";
+import type {ColumnsProps} from "./Columns.types";
 import '../../../css/variables.css';
-import styles from './Row.module.css';
+import styles from './Columns.module.css';
 import classNames from '../../../utils/classNames';
 
-const Row = ({
+const Columns = ({
     children,
     className = '',
     style = {},
-}: RowProps) => {
+}: ColumnsProps) => {
     return (
         <div
             className={classNames([
-                styles.row,
+                styles.columns,
                 className
             ])}
             style={style}
@@ -22,4 +22,4 @@ const Row = ({
     );
 };
 
-export default Row;
+export default Columns;

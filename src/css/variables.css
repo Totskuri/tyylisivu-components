@@ -50,5 +50,5 @@
     --ts-container-max-width: 1140px;
 
     /* Row */
-    --ts-row-gap: 1rem;
+    --ts-column-gap: 1rem;
 }

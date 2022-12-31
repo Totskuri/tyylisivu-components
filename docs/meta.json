@@ -5,16 +5,6 @@
     "version": 1
   },
   "stories": {
-    "element--section": {
-      "name": "Section",
-      "levels": [
-        "Element"
-      ],
-      "locStart": 11,
-      "locEnd": 24,
-      "filePath": "src/components/element/Section/Section.stories.tsx",
-      "meta": {}
-    },
     "element--button": {
       "name": "Button",
       "levels": [
@@ -25,24 +15,14 @@
       "filePath": "src/components/element/Button/Button.stories.tsx",
       "meta": {}
     },
-    "helper--gap": {
-      "name": "Gap",
+    "element--section": {
+      "name": "Section",
       "levels": [
-        "Helper"
-      ],
-      "locStart": 11,
-      "locEnd": 25,
-      "filePath": "src/components/helper/Gap/Gap.stories.tsx",
-      "meta": {}
-    },
-    "layout--container": {
-      "name": "Container",
-      "levels": [
-        "Layout"
+        "Element"
       ],
       "locStart": 11,
       "locEnd": 24,
-      "filePath": "src/components/layout/Container/Container.stories.tsx",
+      "filePath": "src/components/element/Section/Section.stories.tsx",
       "meta": {}
     },
     "form--label": {
@@ -73,6 +53,36 @@
       "locStart": 11,
       "locEnd": 35,
       "filePath": "src/components/form/TextInput/TextInput.stories.tsx",
+      "meta": {}
+    },
+    "helper--gap": {
+      "name": "Gap",
+      "levels": [
+        "Helper"
+      ],
+      "locStart": 11,
+      "locEnd": 25,
+      "filePath": "src/components/helper/Gap/Gap.stories.tsx",
+      "meta": {}
+    },
+    "layout--columns": {
+      "name": "Columns",
+      "levels": [
+        "Layout"
+      ],
+      "locStart": 12,
+      "locEnd": 75,
+      "filePath": "src/components/layout/Columns/Columns.stories.tsx",
+      "meta": {}
+    },
+    "layout--container": {
+      "name": "Container",
+      "levels": [
+        "Layout"
+      ],
+      "locStart": 11,
+      "locEnd": 24,
+      "filePath": "src/components/layout/Container/Container.stories.tsx",
       "meta": {}
     },
     "navigation--drawer": {
