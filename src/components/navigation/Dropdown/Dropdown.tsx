@@ -8,7 +8,7 @@ import useOnClickOutside from "../../../hooks/useOnClickOutside";
 const Dropdown = ({
     children,
     items,
-    align = 'center',
+    align = 'left',
     className = '',
     style = {},
 }: DropdownProps) => {

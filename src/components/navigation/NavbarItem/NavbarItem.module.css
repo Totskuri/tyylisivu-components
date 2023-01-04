@@ -1,0 +1,10 @@
+.item {
+    padding: var(--ts-navbar-item-padding);
+    text-decoration: none;
+    color: initial;
+    user-select: none;
+}
+
+.item:hover {
+    color: var(--ts-navbar-item-color-hover);
+}

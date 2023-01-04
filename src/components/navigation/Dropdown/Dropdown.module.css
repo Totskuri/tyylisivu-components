@@ -7,12 +7,15 @@
     background: transparent;
     border: none;
     cursor: pointer;
+    padding: 0;
 }
 
 .content {
     display: none;
     position: absolute;
     top: 100%;
+    white-space: nowrap;
+    flex-direction: column;
     z-index: var(--ts-dropdown-z-index);
     background-color: var(--ts-dropdown-bg-color);
     border-radius: var(--ts-dropdown-border-radius);
@@ -33,5 +36,5 @@
 }
 
 .open {
-    display: var(--ts-dropdown-display);
+    display: flex;
 }

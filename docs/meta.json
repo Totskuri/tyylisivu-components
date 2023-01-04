@@ -15,6 +15,16 @@
       "filePath": "src/components/element/Button/Button.stories.tsx",
       "meta": {}
     },
+    "element--menu-button": {
+      "name": "Menu button",
+      "levels": [
+        "Element"
+      ],
+      "locStart": 12,
+      "locEnd": 27,
+      "filePath": "src/components/element/MenuButton/MenuButton.stories.tsx",
+      "meta": {}
+    },
     "element--section": {
       "name": "Section",
       "levels": [
@@ -103,6 +113,16 @@
       "locStart": 11,
       "locEnd": 27,
       "filePath": "src/components/navigation/Dropdown/Dropdown.stories.tsx",
+      "meta": {}
+    },
+    "navigation--navbar": {
+      "name": "Navbar",
+      "levels": [
+        "Navigation"
+      ],
+      "locStart": 13,
+      "locEnd": 56,
+      "filePath": "src/components/navigation/Navbar/Navbar.stories.tsx",
       "meta": {}
     }
   }
