@@ -4,6 +4,13 @@ import '../../../css/variables.css';
 import styles from './NavbarItem.module.css';
 import classNames from "../../../utils/classNames";
 
+/**
+ * @param children
+ * @param href
+ * @param className
+ * @param style
+ * @constructor
+ */
 const NavbarItem = ({
     children,
     href,

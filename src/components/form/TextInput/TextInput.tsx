@@ -5,6 +5,19 @@ import '../../../css/variables.css';
 import styles from '../../../css/input.module.css';
 import classNames from "../../../utils/classNames";
 
+/**
+ * @param value
+ * @param onChange
+ * @param placeholder
+ * @param readOnly
+ * @param autoFocus
+ * @param maxLength
+ * @param onSubmit
+ * @param className
+ * @param style
+ * @param enterKeyHint
+ * @constructor
+ */
 const TextInput = ({
     value,
     onChange,

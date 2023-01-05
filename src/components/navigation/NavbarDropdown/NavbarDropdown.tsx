@@ -4,6 +4,15 @@ import '../../../css/variables.css';
 import styles from './NavbarDropdown.module.css';
 import classNames from "../../../utils/classNames";
 
+/**
+ * @param children
+ * @param text
+ * @param href
+ * @param align
+ * @param className
+ * @param style
+ * @constructor
+ */
 const NavbarDropdown = ({
     children,
     text,

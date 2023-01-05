@@ -4,6 +4,15 @@ import '../../../css/variables.css';
 import styles from './Column.module.css';
 import classNames from '../../../utils/classNames';
 
+/**
+ * @param children
+ * @param size
+ * @param sizeMd
+ * @param sizeSm
+ * @param className
+ * @param style
+ * @constructor
+ */
 const Column = ({
     children,
     size = undefined,

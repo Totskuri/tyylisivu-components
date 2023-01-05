@@ -3,11 +3,18 @@ import type {LabelProps} from "./Label.types";
 import styles from './Label.module.css';
 import classNames from "../../../utils/classNames";
 
+/**
+ * @param children
+ * @param text
+ * @param className
+ * @param style
+ * @constructor
+ */
 const Label = ({
-        children,
-        text = '',
-        className = '',
-        style = {},
+    children,
+    text = '',
+    className = '',
+    style = {},
 }: LabelProps) => {
     return (
         <label

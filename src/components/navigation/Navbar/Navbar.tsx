@@ -5,6 +5,13 @@ import styles from './Navbar.module.css';
 import classNames from "../../../utils/classNames";
 import MenuButton from "../../element/MenuButton/MenuButton";
 
+/**
+ * @param children
+ * @param brand
+ * @param className
+ * @param style
+ * @constructor
+ */
 const Navbar = ({
     children,
     brand = undefined,

@@ -4,6 +4,12 @@ import '../../../css/variables.css';
 import styles from './Container.module.css';
 import classNames from '../../../utils/classNames';
 
+/**
+ * @param children
+ * @param className
+ * @param style
+ * @constructor
+ */
 const Container = ({
     children,
     className = '',

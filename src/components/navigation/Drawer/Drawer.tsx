@@ -5,6 +5,14 @@ import styles from './Drawer.module.css';
 import classNames from "../../../utils/classNames";
 import useOnClickOutside from "../../../hooks/useOnClickOutside";
 
+/**
+ * @param children
+ * @param isOpen
+ * @param handleClose
+ * @param className
+ * @param style
+ * @constructor
+ */
 const Drawer = ({
     children,
     isOpen,

@@ -4,6 +4,12 @@ import '../../../css/variables.css';
 import styles from './Section.module.css';
 import classNames from '../../../utils/classNames';
 
+/**
+ * @param children
+ * @param className
+ * @param style
+ * @constructor
+ */
 const Section = ({
     children,
     className = '',

@@ -4,6 +4,14 @@ import '../../../css/variables.css';
 import styles from './MenuButton.module.css';
 import classNames from "../../../utils/classNames";
 
+/**
+ * @param onToggle
+ * @param toggled
+ * @param disabled
+ * @param className
+ * @param style
+ * @constructor
+ */
 const MenuButton = ({
     onToggle,
     toggled = false,

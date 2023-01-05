@@ -5,6 +5,14 @@ import styles from './Dropdown.module.css';
 import classNames from "../../../utils/classNames";
 import useOnClickOutside from "../../../hooks/useOnClickOutside";
 
+/**
+ * @param children
+ * @param items
+ * @param align
+ * @param className
+ * @param style
+ * @constructor
+ */
 const Dropdown = ({
     children,
     items,

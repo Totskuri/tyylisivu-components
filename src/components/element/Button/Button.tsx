@@ -4,6 +4,15 @@ import '../../../css/variables.css';
 import styles from './Button.module.css';
 import classNames from '../../../utils/classNames';
 
+/**
+ * @param children
+ * @param onClick
+ * @param variant
+ * @param disabled
+ * @param className
+ * @param style
+ * @constructor
+ */
 const Button = ({
     children,
     onClick,

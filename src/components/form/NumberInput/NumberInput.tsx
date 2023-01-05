@@ -5,6 +5,19 @@ import '../../../css/variables.css';
 import styles from '../../../css/input.module.css';
 import classNames from "../../../utils/classNames";
 
+/**
+ * @param value
+ * @param onChange
+ * @param min
+ * @param max
+ * @param readOnly
+ * @param autoFocus
+ * @param onSubmit
+ * @param className
+ * @param style
+ * @param enterKeyHint
+ * @constructor
+ */
 const NumberInput = ({
     value,
     onChange,

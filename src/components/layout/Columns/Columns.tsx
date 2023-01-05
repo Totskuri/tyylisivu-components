@@ -4,6 +4,12 @@ import '../../../css/variables.css';
 import styles from './Columns.module.css';
 import classNames from '../../../utils/classNames';
 
+/**
+ * @param children
+ * @param className
+ * @param style
+ * @constructor
+ */
 const Columns = ({
     children,
     className = '',
