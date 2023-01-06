@@ -15,6 +15,16 @@
       "filePath": "src/components/element/Button/Button.stories.tsx",
       "meta": {}
     },
+    "element--section": {
+      "name": "Section",
+      "levels": [
+        "Element"
+      ],
+      "locStart": 11,
+      "locEnd": 24,
+      "filePath": "src/components/element/Section/Section.stories.tsx",
+      "meta": {}
+    },
     "element--menu-button": {
       "name": "Menu button",
       "levels": [
@@ -25,14 +35,14 @@
       "filePath": "src/components/element/MenuButton/MenuButton.stories.tsx",
       "meta": {}
     },
-    "element--section": {
-      "name": "Section",
+    "helper--gap": {
+      "name": "Gap",
       "levels": [
-        "Element"
+        "Helper"
       ],
       "locStart": 11,
-      "locEnd": 24,
-      "filePath": "src/components/element/Section/Section.stories.tsx",
+      "locEnd": 25,
+      "filePath": "src/components/helper/Gap/Gap.stories.tsx",
       "meta": {}
     },
     "form--label": {
@@ -65,16 +75,6 @@
       "filePath": "src/components/form/TextInput/TextInput.stories.tsx",
       "meta": {}
     },
-    "helper--gap": {
-      "name": "Gap",
-      "levels": [
-        "Helper"
-      ],
-      "locStart": 11,
-      "locEnd": 25,
-      "filePath": "src/components/helper/Gap/Gap.stories.tsx",
-      "meta": {}
-    },
     "layout--columns": {
       "name": "Columns",
       "levels": [
@@ -93,6 +93,16 @@
       "locStart": 11,
       "locEnd": 24,
       "filePath": "src/components/layout/Container/Container.stories.tsx",
+      "meta": {}
+    },
+    "layout--hero": {
+      "name": "Hero",
+      "levels": [
+        "Layout"
+      ],
+      "locStart": 11,
+      "locEnd": 30,
+      "filePath": "src/components/layout/Hero/Hero.stories.tsx",
       "meta": {}
     },
     "navigation--drawer": {

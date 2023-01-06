@@ -1,0 +1,26 @@
+.hero {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: var(--ts-hero-bg-color);
+}
+
+.default {
+    min-height: var(--ts-hero-height);
+}
+
+.half {
+    min-height: 50vh;
+}
+
+.full {
+    min-height: 100vh;
+}
+
+.dark {
+    background-color: var(--ts-hero-overlay-dark);
+}
+
+.content {
+    padding: var(--ts-hero-padding);
+}
