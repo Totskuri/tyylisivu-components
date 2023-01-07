@@ -4,6 +4,15 @@ import '../../../css/variables.css';
 import styles from './Hero.module.css';
 import classNames from '../../../utils/classNames';
 
+/**
+ * @param children
+ * @param backgroundImage
+ * @param height
+ * @param overlay
+ * @param className
+ * @param style
+ * @constructor
+ */
 const Hero = ({
     children,
     backgroundImage = 'none',

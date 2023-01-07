@@ -1,5 +1,5 @@
 import React, {useRef} from "react";
-import type {TextInputProps} from "./TextInput.types";
+import type {TextareaProps} from "./Textarea.types";
 import '../../../css/variables.css';
 import styles from '../../../css/input.module.css';
 import classNames from "../../../utils/classNames";
@@ -12,6 +12,7 @@ import useOnKeyDownInput from "../../../hooks/useOnKeyDownInput";
  * @param readOnly
  * @param autoFocus
  * @param maxLength
+ * @param rows
  * @param onSubmit
  * @param className
  * @param style
@@ -19,26 +20,25 @@ import useOnKeyDownInput from "../../../hooks/useOnKeyDownInput";
  * @param autoComplete
  * @constructor
  */
-const TextInput = ({
+const Textarea = ({
     value,
     onChange,
     placeholder = '',
     readOnly = false,
     autoFocus = false,
     maxLength = 524288,
+    rows = 4,
     onSubmit = () => {},
     className = '',
     style = {},
-    enterKeyHint = undefined,
     autoComplete = 'off',
-}: TextInputProps) => {
-    const ref = useRef<HTMLInputElement>(null);
+}: TextareaProps) => {
+    const ref = useRef<HTMLTextAreaElement>(null);
     const useKeyPress = useOnKeyDownInput(ref, onSubmit);
     const getReadOnlyClass = () => readOnly ? styles.readonly : '';
     return (
-        <input
+        <textarea
             ref={ref}
-            type="text"
             className={classNames([
                 styles.input,
                 getReadOnlyClass(),
@@ -50,12 +50,12 @@ const TextInput = ({
             onChange={(e) => onChange(e.target.value)}
             readOnly={readOnly}
             maxLength={maxLength}
+            rows={rows}
             autoFocus={autoFocus}
             onKeyDown={useKeyPress}
             autoComplete={autoComplete}
-            enterKeyHint={enterKeyHint}
         />
     );
 };
 
-export default TextInput;
+export default Textarea;

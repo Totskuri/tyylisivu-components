@@ -3,6 +3,6 @@ import React from "react";
 
 export interface DrawerProps extends ComponentProps {
     children: React.ReactNode;
-    isOpen: boolean,
-    handleClose: () => void,
+    isOpen: boolean;
+    handleClose: () => void;
 }

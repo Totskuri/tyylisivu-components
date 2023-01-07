@@ -15,16 +15,6 @@
       "filePath": "src/components/element/Button/Button.stories.tsx",
       "meta": {}
     },
-    "element--section": {
-      "name": "Section",
-      "levels": [
-        "Element"
-      ],
-      "locStart": 11,
-      "locEnd": 24,
-      "filePath": "src/components/element/Section/Section.stories.tsx",
-      "meta": {}
-    },
     "element--menu-button": {
       "name": "Menu button",
       "levels": [
@@ -35,14 +25,14 @@
       "filePath": "src/components/element/MenuButton/MenuButton.stories.tsx",
       "meta": {}
     },
-    "helper--gap": {
-      "name": "Gap",
+    "element--section": {
+      "name": "Section",
       "levels": [
-        "Helper"
+        "Element"
       ],
       "locStart": 11,
-      "locEnd": 25,
-      "filePath": "src/components/helper/Gap/Gap.stories.tsx",
+      "locEnd": 24,
+      "filePath": "src/components/element/Section/Section.stories.tsx",
       "meta": {}
     },
     "form--label": {
@@ -65,6 +55,16 @@
       "filePath": "src/components/form/NumberInput/NumberInput.stories.tsx",
       "meta": {}
     },
+    "form--textarea": {
+      "name": "Textarea",
+      "levels": [
+        "Form"
+      ],
+      "locStart": 11,
+      "locEnd": 35,
+      "filePath": "src/components/form/Textarea/Textarea.stories.tsx",
+      "meta": {}
+    },
     "form--text-input": {
       "name": "Text input",
       "levels": [
@@ -73,6 +73,16 @@
       "locStart": 11,
       "locEnd": 35,
       "filePath": "src/components/form/TextInput/TextInput.stories.tsx",
+      "meta": {}
+    },
+    "helper--gap": {
+      "name": "Gap",
+      "levels": [
+        "Helper"
+      ],
+      "locStart": 11,
+      "locEnd": 25,
+      "filePath": "src/components/helper/Gap/Gap.stories.tsx",
       "meta": {}
     },
     "layout--columns": {

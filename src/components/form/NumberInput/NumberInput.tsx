@@ -1,9 +1,9 @@
 import React, {useRef} from "react";
 import type {NumberInputProps} from "./NumberInput.types";
-import KeyboardListener, {KEY_ENTER, KEY_ESCAPE} from "../../../utils/KeyboardListener";
 import '../../../css/variables.css';
 import styles from '../../../css/input.module.css';
 import classNames from "../../../utils/classNames";
+import useOnKeyDownInput from "../../../hooks/useOnKeyDownInput";
 
 /**
  * @param value
@@ -16,6 +16,7 @@ import classNames from "../../../utils/classNames";
  * @param className
  * @param style
  * @param enterKeyHint
+ * @param autoComplete
  * @constructor
  */
 const NumberInput = ({
@@ -29,24 +30,11 @@ const NumberInput = ({
     className = '',
     style = {},
     enterKeyHint = undefined,
+    autoComplete = 'off',
 }: NumberInputProps) => {
     const ref = useRef<HTMLInputElement>(null);
+    const useKeyPress = useOnKeyDownInput(ref, onSubmit);
     const getReadOnlyClass = () => readOnly ? styles.readonly : '';
-
-    const handleExit = (): void => {
-        if (ref && ref.current) {
-            ref.current.blur();
-        }
-    };
-
-    const handleKeyPress = (e: React.KeyboardEvent): void => {
-        const keyboardListener = new KeyboardListener([
-            {key: KEY_ENTER, action: onSubmit},
-            {key: KEY_ESCAPE, action: handleExit},
-        ]);
-        keyboardListener.listen(e);
-    };
-
     return (
         <input
             ref={ref}
@@ -63,8 +51,8 @@ const NumberInput = ({
             max={max}
             readOnly={readOnly}
             autoFocus={autoFocus}
-            onKeyDown={handleKeyPress}
-            autoComplete="off"
+            onKeyDown={useKeyPress}
+            autoComplete={autoComplete}
             enterKeyHint={enterKeyHint}
         />
     );

@@ -3,6 +3,6 @@ import {ComponentProps} from "../../../types/ComponentProps";
 
 export interface LabelProps extends ComponentProps {
     children: React.ReactNode;
-    text?: string,
+    text?: string;
     disabled?: boolean;
 }
