@@ -76,7 +76,7 @@
     --ts-hero-padding: 3rem 1rem;
 
     /* Badge */
-    --ts-badge-margin: 0 0.5rem;
+    --ts-badge-margin: 0 0.5rem 0.5rem 0;
     --ts-badge-padding: 0.5rem 1rem;
     --ts-badge-border-radius: 0.25rem;
     --ts-badge-bg-color: #f5f5f5;

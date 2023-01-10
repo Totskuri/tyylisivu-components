@@ -23,7 +23,16 @@ const Badge = ({
             ])}
             style={style}
         >
-            {labels.map((label) => <div className={styles.badge}>{label}</div>)}
+            {labels.map((label, index) => {
+                return (
+                    <div
+                        key={`${label}_${index}`}
+                        className={styles.badge}
+                    >
+                        {label}
+                    </div>
+                );
+            })}
         </div>
     );
 };
