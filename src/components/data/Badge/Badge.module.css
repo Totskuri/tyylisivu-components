@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.badge {
+    display: inline-block;
+    margin: var(--ts-badge-margin);
+    padding: var(--ts-badge-padding);
+    border-radius: var(--ts-badge-border-radius);
+    background-color: var(--ts-badge-bg-color);
+    color: var(--ts-badge-color);
+}

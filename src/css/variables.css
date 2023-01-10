@@ -74,4 +74,11 @@
     --ts-hero-bg-color: transparent;
     --ts-hero-overlay-dark: rgba(0, 0, 0, 0.3);
     --ts-hero-padding: 3rem 1rem;
+
+    /* Badge */
+    --ts-badge-margin: 0 0.5rem;
+    --ts-badge-padding: 0.5rem 1rem;
+    --ts-badge-border-radius: 0.25rem;
+    --ts-badge-bg-color: #f5f5f5;
+    --ts-badge-color: black;
 }

@@ -36,10 +36,16 @@ const Hero = ({
             }}
         >
             <div
-                className={getOverlayClass()}
+                className={classNames([
+                    'overlay',
+                    getOverlayClass()
+                ])}
             >
                 <div
-                    className={styles.content}
+                    className={classNames([
+                        'content',
+                        styles.content
+                    ])}
                 >
                     {children}
                 </div>
