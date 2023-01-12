@@ -1,6 +1,5 @@
 .columns {
     display: flex;
     flex-wrap: wrap;
-    margin-left: calc((var(--ts-column-gap) / 2) * -1);
-    margin-right: calc((var(--ts-column-gap) / 2) * -1);
+    margin: calc((var(--ts-column-gap) / 2) * -1);
 }
