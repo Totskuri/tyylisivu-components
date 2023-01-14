@@ -12,6 +12,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    background-color: var(--ts-navbar-menu-bg-color);
 }
 
 .menuButton {
