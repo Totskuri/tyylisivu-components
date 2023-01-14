@@ -8,11 +8,15 @@
     background-color: var(--ts-navbar-bg-color);
 }
 
+.container {
+    margin: var(--ts-navbar-container-margin);
+    max-width: var(--ts-navbar-container-max-width);
+}
+
 .menu {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-color: var(--ts-navbar-menu-bg-color);
 }
 
 .menuButton {

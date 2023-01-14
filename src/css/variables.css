@@ -61,7 +61,8 @@
     /* Navbar */
     --ts-navbar-padding: 1rem;
     --ts-navbar-bg-color: white;
-    --ts-navbar-menu-bg-color: transparent;
+    --ts-navbar-container-margin: 0 auto;
+    --ts-navbar-container-max-width: 1140px;
     --ts-navbar-menu-box-shadow: 0 8px 16px rgb(10 10 10 / 10%);
     --ts-navbar-item-padding: 0.5rem;
     --ts-navbar-item-color-hover: #1e88e5;
