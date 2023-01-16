@@ -1,5 +1,7 @@
 .header {
     z-index: var(--ts-header-z-index);
+    background-color: var(--ts-header-bg-color);
+    transition: var(--ts-header-transition);
 }
 
 .fixed {
@@ -7,4 +9,8 @@
     top: 0;
     right: 0;
     left: 0;
+}
+
+.scrolled {
+    background-color: var(--ts-header-bg-color-scrolled);
 }
