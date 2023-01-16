@@ -1,9 +1,5 @@
 .navbar {
     position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
     padding: var(--ts-navbar-padding);
     background-color: var(--ts-navbar-bg-color);
 }
@@ -11,6 +7,10 @@
 .container {
     margin: var(--ts-navbar-container-margin);
     max-width: var(--ts-navbar-container-max-width);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .menu {
@@ -30,7 +30,6 @@
         flex-direction: column;
         align-items: flex-start;
         margin-top: var(--ts-navbar-padding);
-        padding: var(--ts-navbar-padding);
         box-shadow: var(--ts-navbar-menu-box-shadow);
     }
 

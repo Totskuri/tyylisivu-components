@@ -25,6 +25,16 @@
       "filePath": "src/components/element/Button/Button.stories.tsx",
       "meta": {}
     },
+    "element--header": {
+      "name": "Header",
+      "levels": [
+        "Element"
+      ],
+      "locStart": 14,
+      "locEnd": 59,
+      "filePath": "src/components/element/Header/Header.stories.tsx",
+      "meta": {}
+    },
     "element--menu-button": {
       "name": "Menu button",
       "levels": [
