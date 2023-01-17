@@ -19,13 +19,11 @@ const Navbar = ({
     style = {},
 }: NavbarProps) => {
     const [isOpen, setIsOpen] = useState(false);
-    const getIsOpenClass = () => isOpen ? 'isOpen' : '';
     const getHiddenClass = () => !isOpen ? styles.hidden : '';
     return (
         <div
             className={classNames([
                 styles.navbar,
-                getIsOpenClass(),
                 className
             ])}
             style={style}

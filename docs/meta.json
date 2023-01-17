@@ -85,16 +85,6 @@
       "filePath": "src/components/form/Textarea/Textarea.stories.tsx",
       "meta": {}
     },
-    "helper--gap": {
-      "name": "Gap",
-      "levels": [
-        "Helper"
-      ],
-      "locStart": 11,
-      "locEnd": 25,
-      "filePath": "src/components/helper/Gap/Gap.stories.tsx",
-      "meta": {}
-    },
     "form--text-input": {
       "name": "Text input",
       "levels": [
@@ -103,6 +93,16 @@
       "locStart": 11,
       "locEnd": 35,
       "filePath": "src/components/form/TextInput/TextInput.stories.tsx",
+      "meta": {}
+    },
+    "helper--gap": {
+      "name": "Gap",
+      "levels": [
+        "Helper"
+      ],
+      "locStart": 11,
+      "locEnd": 25,
+      "filePath": "src/components/helper/Gap/Gap.stories.tsx",
       "meta": {}
     },
     "layout--columns": {
