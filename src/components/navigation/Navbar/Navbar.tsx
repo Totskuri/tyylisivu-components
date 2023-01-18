@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useEffect, useState} from "react";
 import type {NavbarProps} from "./Navbar.types";
 import '../../../css/variables.css';
 import styles from './Navbar.module.css';
@@ -8,6 +8,7 @@ import MenuButton from "../../element/MenuButton/MenuButton";
 /**
  * @param children
  * @param brand
+ * @param isOpenCallback
  * @param className
  * @param style
  * @constructor
@@ -15,11 +16,15 @@ import MenuButton from "../../element/MenuButton/MenuButton";
 const Navbar = ({
     children,
     brand = undefined,
+    isOpenCallback = () => {},
     className = '',
     style = {},
 }: NavbarProps) => {
     const [isOpen, setIsOpen] = useState(false);
     const getHiddenClass = () => !isOpen ? styles.hidden : '';
+    useEffect(() => {
+        isOpenCallback(isOpen);
+    }, [isOpen]);
     return (
         <div
             className={classNames([
