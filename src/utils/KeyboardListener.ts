@@ -4,7 +4,7 @@ export const KEY_ENTER = 'Enter';
 export const KEY_ESCAPE = 'Escape';
 
 export interface KeyboardAction {
-    key: String,
+    key: string,
     action: () => void,
 }
 

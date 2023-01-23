@@ -20,7 +20,7 @@ const Navbar = ({
     className = '',
     style = {},
 }: NavbarProps) => {
-    const [isOpen, setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState<boolean>(false);
     const getHiddenClass = () => !isOpen ? styles.hidden : '';
     useEffect(() => {
         isOpenCallback(isOpen);

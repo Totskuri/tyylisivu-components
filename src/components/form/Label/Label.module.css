@@ -1,6 +1,7 @@
 .label {
     display: flex;
     flex-direction: column;
+    margin: var(--ts-label-margin);
 }
 
 .text {

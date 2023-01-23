@@ -29,6 +29,9 @@
     --ts-menu-button-bar-margin: 5px 0;
     --ts-menu-button-bar-transition: 0.3s ease;
 
+    /* Label */
+    --ts-label-margin: 0 0 0.75rem 0;
+
     /* Input */
     --ts-input-padding: 0.5rem 1rem;
     --ts-input-border-radius: 0.25rem;
