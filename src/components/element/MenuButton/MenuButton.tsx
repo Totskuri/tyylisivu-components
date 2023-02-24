@@ -30,6 +30,7 @@ const MenuButton = ({
             ])}
             style={style}
             disabled={disabled}
+            aria-label="Toggle navigation"
         >
             <div
                 className={classNames([
