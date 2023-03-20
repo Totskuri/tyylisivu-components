@@ -1,5 +1,4 @@
 .accordion {
-    border-radius: var(--ts-accordion-border-radius);
     border: var(--ts-accordion-border);
 }
 
@@ -13,6 +12,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: var(--ts-accordion-title-color);
 }
 
 .title {
@@ -20,25 +20,28 @@
 }
 
 .content {
-    border-top: var(--ts-accordion-border);
     padding: var(--ts-accordion-padding);
+}
+
+.chevron {
+    height: 0.45em;
+    position: relative;
 }
 
 .chevron::before {
     border-style: solid;
-    border-width: 0.25em 0.25em 0 0;
+    border-width: 2px 2px 0 0;
     content: '';
     display: inline-block;
-    height: 0.45em;
-    left: 0.15em;
+    height: 10px;
     position: relative;
-    top: 0;
+    top: -5px;
     transform: rotate(135deg);
     vertical-align: top;
-    width: 0.45em;
+    width: 10px;
 }
 
 .chevron.top:before {
-    top: 0.15em;
+    top: 0;
     transform: rotate(-45deg);
 }

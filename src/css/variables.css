@@ -95,6 +95,6 @@
 
     /* Accordion */
     --ts-accordion-padding: 1rem;
-    --ts-accordion-border-radius: 0.25rem;
+    --ts-accordion-title-color: black;
     --ts-accordion-border: 1px solid #dee2e6;
 }
