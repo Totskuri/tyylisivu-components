@@ -1,5 +1,9 @@
 .accordion {
-    border: var(--ts-accordion-border);
+    border-top: var(--ts-accordion-border);
+}
+
+.accordion:last-child {
+    border-bottom: var(--ts-accordion-border);
 }
 
 .button {
@@ -13,6 +17,7 @@
     justify-content: space-between;
     align-items: center;
     color: var(--ts-accordion-title-color);
+    text-align: left;
 }
 
 .isOpen {
@@ -28,7 +33,8 @@
 }
 
 .chevron {
-    height: 0.45em;
+    padding-left: 1rem;
+    height: 10px;
     position: relative;
 }
 
