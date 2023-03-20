@@ -5,6 +5,16 @@
     "version": 1
   },
   "stories": {
+    "data--accordion": {
+      "name": "Accordion",
+      "levels": [
+        "Data"
+      ],
+      "locStart": 11,
+      "locEnd": 26,
+      "filePath": "src/components/data/Accordion/Accordion.stories.tsx",
+      "meta": {}
+    },
     "data--badge": {
       "name": "Badge",
       "levels": [
@@ -95,16 +105,6 @@
       "filePath": "src/components/form/TextInput/TextInput.stories.tsx",
       "meta": {}
     },
-    "helper--gap": {
-      "name": "Gap",
-      "levels": [
-        "Helper"
-      ],
-      "locStart": 11,
-      "locEnd": 25,
-      "filePath": "src/components/helper/Gap/Gap.stories.tsx",
-      "meta": {}
-    },
     "layout--columns": {
       "name": "Columns",
       "levels": [
@@ -133,6 +133,16 @@
       "locStart": 11,
       "locEnd": 30,
       "filePath": "src/components/layout/Hero/Hero.stories.tsx",
+      "meta": {}
+    },
+    "helper--gap": {
+      "name": "Gap",
+      "levels": [
+        "Helper"
+      ],
+      "locStart": 11,
+      "locEnd": 25,
+      "filePath": "src/components/helper/Gap/Gap.stories.tsx",
       "meta": {}
     },
     "navigation--drawer": {

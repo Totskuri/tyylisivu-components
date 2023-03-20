@@ -49,6 +49,6 @@ Default.argTypes = {
     enterKeyHint: {
         options: ['none', 'enter', 'done', 'go', 'next', 'previous', 'search', 'send'],
         control: {type: "select"},
-        defaultValue: 'none',
+        defaultValue: undefined,
     }
 };

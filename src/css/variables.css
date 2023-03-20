@@ -92,4 +92,9 @@
     --ts-header-bg-color: white;
     --ts-header-transition: background-color 0.3s ease;
     --ts-header-bg-color-scrolled: white;
+
+    /* Accordion */
+    --ts-accordion-padding: 1rem;
+    --ts-accordion-border-radius: 0.25rem;
+    --ts-accordion-border: 1px solid #dee2e6;
 }

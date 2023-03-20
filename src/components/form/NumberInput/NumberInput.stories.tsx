@@ -39,10 +39,8 @@ Default.storyName = "NumberInput";
 Default.args = {
     min: undefined,
     max: undefined,
-    placeholder: '',
     readOnly: false,
     autoFocus: false,
-    maxLength: 524288,
     enterKeyHint: undefined,
     ...componentDefaults
 };
@@ -51,6 +49,6 @@ Default.argTypes = {
     enterKeyHint: {
         options: ['none', 'enter', 'done', 'go', 'next', 'previous', 'search', 'send'],
         control: {type: "select"},
-        defaultValue: 'none',
+        defaultValue: undefined,
     }
 };

@@ -1,0 +1,1 @@
+const c="_input_83590_1",i="_readonly_83590_15",d={input:c,readonly:i},r="Enter",a="Escape";class y{constructor(e){this.listen=s=>{const t=this.keyboardActions.find(o=>o.key===s.key);t&&t.action()},this.keyboardActions=e}}const u=(n,e)=>{const s=()=>{n&&n.current&&n.current.blur()};return t=>{new y([{key:r,action:e},{key:a,action:s}]).listen(t)}};export{d as s,u};
