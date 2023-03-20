@@ -18,6 +18,7 @@ const Accordion = ({
     style = {},
 }: AccordionProps) => {
     const [isOpen, setIsOpen] = useState(false);
+    const getButtonIsOpenClass = () => isOpen ? styles.isOpen : '';
     const getChevronAdditionalClass = () => isOpen ? styles.top : '';
     return (
         <div
@@ -31,7 +32,10 @@ const Accordion = ({
                 type="button"
                 onClick={() => setIsOpen((isOpen) => !isOpen)}
                 aria-label="Toggle accordion"
-                className={styles.button}
+                className={classNames([
+                    styles.button,
+                    getButtonIsOpenClass()
+                ])}
             >
                 <h3
                     className={styles.title}
