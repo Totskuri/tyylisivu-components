@@ -46,6 +46,7 @@
     height: 10px;
     position: relative;
     top: -5px;
+    right: 5px;
     transform: rotate(135deg);
     vertical-align: top;
     width: 10px;
