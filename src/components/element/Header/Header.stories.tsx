@@ -18,6 +18,8 @@ export const Default: Story<HeaderProps> = ({
     return (
         <Header>
             <Navbar
+                icon="icon"
+                iconToggled="iconToggled"
                 className={className}
                 style={style}
                 brand="Tyylisivu"

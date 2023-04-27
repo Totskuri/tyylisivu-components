@@ -3,10 +3,11 @@ import type {NavbarProps} from "./Navbar.types";
 import '../../../css/variables.css';
 import styles from './Navbar.module.css';
 import classNames from "../../../utils/classNames";
-import MenuButton from "../../element/MenuButton/MenuButton";
 
 /**
  * @param children
+ * @param icon
+ * @param iconToggled
  * @param brand
  * @param isOpenCallback
  * @param className
@@ -15,6 +16,8 @@ import MenuButton from "../../element/MenuButton/MenuButton";
  */
 const Navbar = ({
     children,
+    icon,
+    iconToggled = undefined,
     brand = undefined,
     isOpenCallback = () => {},
     className = '',
@@ -39,11 +42,14 @@ const Navbar = ({
                 <div>
                     {brand}
                 </div>
-                <MenuButton
-                    onToggle={(val) => setIsOpen(val)}
-                    toggled={isOpen}
+                <button
+                    type="button"
+                    onClick={() => setIsOpen((isOpen) => !isOpen)}
                     className={styles.menuButton}
-                />
+                    aria-label="Toggle navigation"
+                >
+                    {isOpen && iconToggled ? iconToggled : icon}
+                </button>
                 <nav
                     className={classNames([
                         styles.menu,

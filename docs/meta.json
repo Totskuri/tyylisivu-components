@@ -11,7 +11,7 @@
         "Data"
       ],
       "locStart": 11,
-      "locEnd": 26,
+      "locEnd": 28,
       "filePath": "src/components/data/Accordion/Accordion.stories.tsx",
       "meta": {}
     },
@@ -41,18 +41,8 @@
         "Element"
       ],
       "locStart": 14,
-      "locEnd": 59,
+      "locEnd": 61,
       "filePath": "src/components/element/Header/Header.stories.tsx",
-      "meta": {}
-    },
-    "element--menu-button": {
-      "name": "Menu button",
-      "levels": [
-        "Element"
-      ],
-      "locStart": 12,
-      "locEnd": 27,
-      "filePath": "src/components/element/MenuButton/MenuButton.stories.tsx",
       "meta": {}
     },
     "element--section": {
@@ -105,16 +95,6 @@
       "filePath": "src/components/form/TextInput/TextInput.stories.tsx",
       "meta": {}
     },
-    "helper--gap": {
-      "name": "Gap",
-      "levels": [
-        "Helper"
-      ],
-      "locStart": 11,
-      "locEnd": 25,
-      "filePath": "src/components/helper/Gap/Gap.stories.tsx",
-      "meta": {}
-    },
     "layout--columns": {
       "name": "Columns",
       "levels": [
@@ -145,6 +125,16 @@
       "filePath": "src/components/layout/Hero/Hero.stories.tsx",
       "meta": {}
     },
+    "helper--gap": {
+      "name": "Gap",
+      "levels": [
+        "Helper"
+      ],
+      "locStart": 11,
+      "locEnd": 25,
+      "filePath": "src/components/helper/Gap/Gap.stories.tsx",
+      "meta": {}
+    },
     "navigation--drawer": {
       "name": "Drawer",
       "levels": [
@@ -171,7 +161,7 @@
         "Navigation"
       ],
       "locStart": 13,
-      "locEnd": 56,
+      "locEnd": 58,
       "filePath": "src/components/navigation/Navbar/Navbar.stories.tsx",
       "meta": {}
     }

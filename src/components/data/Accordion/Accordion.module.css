@@ -31,28 +31,3 @@
 .content {
     padding: var(--ts-accordion-padding);
 }
-
-.chevron {
-    padding-left: 1rem;
-    height: 10px;
-    position: relative;
-}
-
-.chevron::before {
-    border-style: solid;
-    border-width: 2px 2px 0 0;
-    content: '';
-    display: inline-block;
-    height: 10px;
-    position: relative;
-    top: -5px;
-    right: 5px;
-    transform: rotate(135deg);
-    vertical-align: top;
-    width: 10px;
-}
-
-.chevron.top:before {
-    top: 0;
-    transform: rotate(-45deg);
-}

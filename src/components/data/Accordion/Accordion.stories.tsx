@@ -19,6 +19,8 @@ export const Default: Story<AccordionProps> = ({
             title={title}
             className={className}
             style={style}
+            icon="icon"
+            iconToggled="iconToggled"
         >
             {children}
         </Accordion>

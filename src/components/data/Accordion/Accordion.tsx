@@ -7,6 +7,8 @@ import styles from "./Accordion.module.css";
 /**
  * @param title
  * @param children
+ * @param icon
+ * @param iconToggled
  * @param className
  * @param style
  * @constructor
@@ -14,12 +16,13 @@ import styles from "./Accordion.module.css";
 const Accordion = ({
     title,
     children,
+    icon,
+    iconToggled = undefined,
     className = '',
     style = {},
 }: AccordionProps) => {
     const [isOpen, setIsOpen] = useState(false);
     const getButtonIsOpenClass = () => isOpen ? styles.isOpen : '';
-    const getChevronAdditionalClass = () => isOpen ? styles.top : '';
     return (
         <div
             className={classNames([
@@ -42,10 +45,7 @@ const Accordion = ({
                 >
                     {title}
                 </h3>
-                <i className={classNames([
-                    styles.chevron,
-                    getChevronAdditionalClass()
-                ])} />
+                {isOpen && iconToggled ? iconToggled : icon}
             </button>
             {isOpen && (
                 <div

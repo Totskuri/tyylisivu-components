@@ -16,6 +16,8 @@ export const Default: Story<NavbarProps> = ({
 }) => {
     return (
         <Navbar
+            icon="icon"
+            iconToggled="iconToggled"
             className={className}
             style={style}
             brand="Tyylisivu"

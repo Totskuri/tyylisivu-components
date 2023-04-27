@@ -22,13 +22,6 @@
     --ts-button-border: none;
     --ts-button-border-radius: 0.25rem;
 
-    /* MenuButton */
-    --ts-menu-button-width: 24px;
-    --ts-menu-button-bar-height: 3px;
-    --ts-menu-button-bar-color: black;
-    --ts-menu-button-bar-margin: 5px 0;
-    --ts-menu-button-bar-transition: 0.3s ease;
-
     /* Label */
     --ts-label-margin: 0 0 0.75rem 0;
 
