@@ -5,36 +5,6 @@
     "version": 1
   },
   "stories": {
-    "element--button": {
-      "name": "Button",
-      "levels": [
-        "Element"
-      ],
-      "locStart": 12,
-      "locEnd": 30,
-      "filePath": "src/components/element/Button/Button.stories.tsx",
-      "meta": {}
-    },
-    "element--header": {
-      "name": "Header",
-      "levels": [
-        "Element"
-      ],
-      "locStart": 14,
-      "locEnd": 61,
-      "filePath": "src/components/element/Header/Header.stories.tsx",
-      "meta": {}
-    },
-    "element--section": {
-      "name": "Section",
-      "levels": [
-        "Element"
-      ],
-      "locStart": 11,
-      "locEnd": 24,
-      "filePath": "src/components/element/Section/Section.stories.tsx",
-      "meta": {}
-    },
     "data--accordion": {
       "name": "Accordion",
       "levels": [
@@ -105,14 +75,34 @@
       "filePath": "src/components/form/TextInput/TextInput.stories.tsx",
       "meta": {}
     },
-    "navigation--drawer": {
-      "name": "Drawer",
+    "element--button": {
+      "name": "Button",
       "levels": [
-        "Navigation"
+        "Element"
+      ],
+      "locStart": 12,
+      "locEnd": 30,
+      "filePath": "src/components/element/Button/Button.stories.tsx",
+      "meta": {}
+    },
+    "element--header": {
+      "name": "Header",
+      "levels": [
+        "Element"
+      ],
+      "locStart": 14,
+      "locEnd": 61,
+      "filePath": "src/components/element/Header/Header.stories.tsx",
+      "meta": {}
+    },
+    "element--section": {
+      "name": "Section",
+      "levels": [
+        "Element"
       ],
       "locStart": 11,
-      "locEnd": 35,
-      "filePath": "src/components/navigation/Drawer/Drawer.stories.tsx",
+      "locEnd": 24,
+      "filePath": "src/components/element/Section/Section.stories.tsx",
       "meta": {}
     },
     "helper--gap": {
@@ -123,26 +113,6 @@
       "locStart": 11,
       "locEnd": 25,
       "filePath": "src/components/helper/Gap/Gap.stories.tsx",
-      "meta": {}
-    },
-    "navigation--dropdown": {
-      "name": "Dropdown",
-      "levels": [
-        "Navigation"
-      ],
-      "locStart": 11,
-      "locEnd": 27,
-      "filePath": "src/components/navigation/Dropdown/Dropdown.stories.tsx",
-      "meta": {}
-    },
-    "navigation--navbar": {
-      "name": "Navbar",
-      "levels": [
-        "Navigation"
-      ],
-      "locStart": 13,
-      "locEnd": 58,
-      "filePath": "src/components/navigation/Navbar/Navbar.stories.tsx",
       "meta": {}
     },
     "layout--columns": {
@@ -173,6 +143,36 @@
       "locStart": 11,
       "locEnd": 30,
       "filePath": "src/components/layout/Hero/Hero.stories.tsx",
+      "meta": {}
+    },
+    "navigation--drawer": {
+      "name": "Drawer",
+      "levels": [
+        "Navigation"
+      ],
+      "locStart": 11,
+      "locEnd": 39,
+      "filePath": "src/components/navigation/Drawer/Drawer.stories.tsx",
+      "meta": {}
+    },
+    "navigation--dropdown": {
+      "name": "Dropdown",
+      "levels": [
+        "Navigation"
+      ],
+      "locStart": 11,
+      "locEnd": 26,
+      "filePath": "src/components/navigation/Dropdown/Dropdown.stories.tsx",
+      "meta": {}
+    },
+    "navigation--navbar": {
+      "name": "Navbar",
+      "levels": [
+        "Navigation"
+      ],
+      "locStart": 13,
+      "locEnd": 58,
+      "filePath": "src/components/navigation/Navbar/Navbar.stories.tsx",
       "meta": {}
     }
   }

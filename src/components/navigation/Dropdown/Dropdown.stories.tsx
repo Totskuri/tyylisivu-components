@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import Dropdown from './Dropdown';
 import componentDefaults from "../../../defaults/ComponentDefaults";
 import {Story} from "@ladle/react";
@@ -14,7 +14,6 @@ export const Default: Story<DropdownProps> = ({
     className,
     style
 }) => {
-    const [isOpen, setIsOpen] = useState(false);
     return (
         <Dropdown
             items={items}

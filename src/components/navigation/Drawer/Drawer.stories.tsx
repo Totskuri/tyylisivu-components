@@ -10,6 +10,8 @@ export default {
 
 export const Default: Story<DrawerProps> = ({
     children,
+    position,
+    iconClose,
     className,
     style
 }) => {
@@ -25,6 +27,8 @@ export const Default: Story<DrawerProps> = ({
             <Drawer
                 isOpen={isOpen}
                 handleClose={() => setIsOpen(false)}
+                position={position}
+                iconClose={iconClose}
                 className={className}
                 style={style}
             >
@@ -38,5 +42,15 @@ Default.storyName = "Drawer";
 
 Default.args = {
     children: 'Drawer children',
+    position: 'left',
+    iconClose: 'iconClose',
     ...componentDefaults
+};
+
+Default.argTypes = {
+    position: {
+        options: ['top', 'right', 'bottom', 'left'],
+        control: {type: "select"},
+        defaultValue: 'left',
+    },
 };
