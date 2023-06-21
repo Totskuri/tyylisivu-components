@@ -25,6 +25,46 @@
       "filePath": "src/components/data/Badge/Badge.stories.tsx",
       "meta": {}
     },
+    "element--button": {
+      "name": "Button",
+      "levels": [
+        "Element"
+      ],
+      "locStart": 12,
+      "locEnd": 30,
+      "filePath": "src/components/element/Button/Button.stories.tsx",
+      "meta": {}
+    },
+    "element--header": {
+      "name": "Header",
+      "levels": [
+        "Element"
+      ],
+      "locStart": 14,
+      "locEnd": 61,
+      "filePath": "src/components/element/Header/Header.stories.tsx",
+      "meta": {}
+    },
+    "element--section": {
+      "name": "Section",
+      "levels": [
+        "Element"
+      ],
+      "locStart": 11,
+      "locEnd": 24,
+      "filePath": "src/components/element/Section/Section.stories.tsx",
+      "meta": {}
+    },
+    "helper--gap": {
+      "name": "Gap",
+      "levels": [
+        "Helper"
+      ],
+      "locStart": 11,
+      "locEnd": 25,
+      "filePath": "src/components/helper/Gap/Gap.stories.tsx",
+      "meta": {}
+    },
     "form--checkbox": {
       "name": "Checkbox",
       "levels": [
@@ -73,46 +113,6 @@
       "locStart": 11,
       "locEnd": 35,
       "filePath": "src/components/form/TextInput/TextInput.stories.tsx",
-      "meta": {}
-    },
-    "element--button": {
-      "name": "Button",
-      "levels": [
-        "Element"
-      ],
-      "locStart": 12,
-      "locEnd": 30,
-      "filePath": "src/components/element/Button/Button.stories.tsx",
-      "meta": {}
-    },
-    "element--header": {
-      "name": "Header",
-      "levels": [
-        "Element"
-      ],
-      "locStart": 14,
-      "locEnd": 61,
-      "filePath": "src/components/element/Header/Header.stories.tsx",
-      "meta": {}
-    },
-    "element--section": {
-      "name": "Section",
-      "levels": [
-        "Element"
-      ],
-      "locStart": 11,
-      "locEnd": 24,
-      "filePath": "src/components/element/Section/Section.stories.tsx",
-      "meta": {}
-    },
-    "helper--gap": {
-      "name": "Gap",
-      "levels": [
-        "Helper"
-      ],
-      "locStart": 11,
-      "locEnd": 25,
-      "filePath": "src/components/helper/Gap/Gap.stories.tsx",
       "meta": {}
     },
     "layout--columns": {

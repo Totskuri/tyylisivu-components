@@ -58,6 +58,7 @@
 
 .disabled {
     background-color: var(--ts-button-bg-color-disabled);
+    color: var(--ts-button-text-color-disabled);
     pointer-events: none;
     cursor: initial;
 }

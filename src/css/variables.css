@@ -19,6 +19,7 @@
     --ts-button-bg-color-hover: #3a94df;
     --ts-button-bg-color-disabled: #6c757d;
     --ts-button-text-color: white;
+    --ts-button-text-color-disabled: white;
     --ts-button-border: none;
     --ts-button-border-radius: 0.25rem;
 
