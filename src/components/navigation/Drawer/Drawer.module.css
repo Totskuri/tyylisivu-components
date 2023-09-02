@@ -1,5 +1,5 @@
 .drawer {
-    position: fixed;
+    position: var(--ts-drawer-position);
     z-index: var(--ts-drawer-z-index);
     transition: var(--ts-drawer-transition);
     background-color: var(--ts-drawer-bg-color);

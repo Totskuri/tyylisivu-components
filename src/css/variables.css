@@ -33,6 +33,7 @@
     --ts-input-bg-color-readonly: #e5e7eb;
 
     /* Drawer */
+    --ts-drawer-position: fixed;
     --ts-drawer-padding: 1rem;
     --ts-drawer-z-index: 1050;
     --ts-drawer-transition: all 0.2s ease;
