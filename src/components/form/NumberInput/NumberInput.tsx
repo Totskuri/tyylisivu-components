@@ -17,6 +17,8 @@ import useOnKeyDownInput from "../../../hooks/useOnKeyDownInput";
  * @param style
  * @param enterKeyHint
  * @param autoComplete
+ * @param onFocus
+ * @param onBlur
  * @constructor
  */
 const NumberInput = ({
@@ -31,6 +33,8 @@ const NumberInput = ({
     style = {},
     enterKeyHint = undefined,
     autoComplete = 'off',
+    onFocus = () => {},
+    onBlur = () => {}
 }: NumberInputProps) => {
     const ref = useRef<HTMLInputElement>(null);
     const useKeyPress = useOnKeyDownInput(ref, onSubmit);
@@ -54,6 +58,8 @@ const NumberInput = ({
             onKeyDown={useKeyPress}
             autoComplete={autoComplete}
             enterKeyHint={enterKeyHint}
+            onFocus={onFocus}
+            onBlur={onBlur}
         />
     );
 };

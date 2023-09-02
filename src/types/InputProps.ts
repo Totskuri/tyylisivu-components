@@ -5,4 +5,6 @@ export interface InputProps extends ComponentProps {
     autoFocus?: boolean;
     onSubmit?: () => void;
     autoComplete?: string;
+    onFocus?: () => void;
+    onBlur?: () => void;
 }

@@ -16,8 +16,9 @@ import useOnKeyDownInput from "../../../hooks/useOnKeyDownInput";
  * @param onSubmit
  * @param className
  * @param style
- * @param enterKeyHint
  * @param autoComplete
+ * @param onFocus
+ * @param onBlur
  * @constructor
  */
 const Textarea = ({
@@ -32,6 +33,8 @@ const Textarea = ({
     className = '',
     style = {},
     autoComplete = 'off',
+    onFocus = () => {},
+    onBlur = () => {}
 }: TextareaProps) => {
     const ref = useRef<HTMLTextAreaElement>(null);
     const useKeyPress = useOnKeyDownInput(ref, onSubmit);
@@ -54,6 +57,8 @@ const Textarea = ({
             autoFocus={autoFocus}
             onKeyDown={useKeyPress}
             autoComplete={autoComplete}
+            onFocus={onFocus}
+            onBlur={onBlur}
         />
     );
 };
