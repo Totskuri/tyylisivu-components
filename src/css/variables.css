@@ -40,6 +40,9 @@
     --ts-drawer-size: 300px;
     --ts-drawer-bg-color: white;
     --ts-drawer-box-shadow: 0 0 10px 5px rgb(0 0 0 / 10%);
+    --ts-drawer-overlay-z-index: 1040;
+    --ts-drawer-overlay-bg-color: rgba(0, 0, 0, 0.48);
+    --ts-drawer-open-transition: all 0.2s;
 
     /* Dropdown */
     --ts-dropdown-z-index: 1010;

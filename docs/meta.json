@@ -55,6 +55,16 @@
       "filePath": "src/components/element/Section/Section.stories.tsx",
       "meta": {}
     },
+    "helper--gap": {
+      "name": "Gap",
+      "levels": [
+        "Helper"
+      ],
+      "locStart": 11,
+      "locEnd": 25,
+      "filePath": "src/components/helper/Gap/Gap.stories.tsx",
+      "meta": {}
+    },
     "form--checkbox": {
       "name": "Checkbox",
       "levels": [
@@ -65,16 +75,6 @@
       "filePath": "src/components/form/Checkbox/Checkbox.stories.tsx",
       "meta": {}
     },
-    "form--label": {
-      "name": "Label",
-      "levels": [
-        "Form"
-      ],
-      "locStart": 11,
-      "locEnd": 26,
-      "filePath": "src/components/form/Label/Label.stories.tsx",
-      "meta": {}
-    },
     "form--number-input": {
       "name": "Number input",
       "levels": [
@@ -83,6 +83,16 @@
       "locStart": 11,
       "locEnd": 35,
       "filePath": "src/components/form/NumberInput/NumberInput.stories.tsx",
+      "meta": {}
+    },
+    "form--label": {
+      "name": "Label",
+      "levels": [
+        "Form"
+      ],
+      "locStart": 11,
+      "locEnd": 26,
+      "filePath": "src/components/form/Label/Label.stories.tsx",
       "meta": {}
     },
     "form--textarea": {
@@ -105,16 +115,6 @@
       "filePath": "src/components/form/TextInput/TextInput.stories.tsx",
       "meta": {}
     },
-    "helper--gap": {
-      "name": "Gap",
-      "levels": [
-        "Helper"
-      ],
-      "locStart": 11,
-      "locEnd": 25,
-      "filePath": "src/components/helper/Gap/Gap.stories.tsx",
-      "meta": {}
-    },
     "layout--columns": {
       "name": "Columns",
       "levels": [
@@ -123,16 +123,6 @@
       "locStart": 12,
       "locEnd": 75,
       "filePath": "src/components/layout/Columns/Columns.stories.tsx",
-      "meta": {}
-    },
-    "layout--container": {
-      "name": "Container",
-      "levels": [
-        "Layout"
-      ],
-      "locStart": 11,
-      "locEnd": 24,
-      "filePath": "src/components/layout/Container/Container.stories.tsx",
       "meta": {}
     },
     "layout--hero": {
@@ -173,6 +163,16 @@
       "locStart": 13,
       "locEnd": 58,
       "filePath": "src/components/navigation/Navbar/Navbar.stories.tsx",
+      "meta": {}
+    },
+    "layout--container": {
+      "name": "Container",
+      "levels": [
+        "Layout"
+      ],
+      "locStart": 11,
+      "locEnd": 24,
+      "filePath": "src/components/layout/Container/Container.stories.tsx",
       "meta": {}
     }
   }

@@ -3,6 +3,7 @@
     z-index: var(--ts-drawer-z-index);
     transition: var(--ts-drawer-transition);
     background-color: var(--ts-drawer-bg-color);
+    box-shadow: var(--ts-drawer-box-shadow);
 }
 
 .body {
@@ -20,10 +21,6 @@
     cursor: pointer;
 }
 
-.open {
-    box-shadow: var(--ts-drawer-box-shadow);
-}
-
 .top {
     left: 0;
     top: calc(var(--ts-drawer-size) * -1);
@@ -39,7 +36,7 @@
     top: 0;
     right: calc(var(--ts-drawer-size) * -1);
     width: var(--ts-drawer-size);
-    height: 100dvh;
+    height: 100vh;
 }
 
 .right.open {
@@ -49,7 +46,7 @@
 .bottom {
     left: 0;
     bottom: calc(var(--ts-drawer-size) * -1);
-    width: 100dvw;
+    width: 100vw;
     height: var(--ts-drawer-size);
 }
 
@@ -62,8 +59,31 @@
     left: calc(var(--ts-drawer-size) * -1);
     width: var(--ts-drawer-size);
     height: 100vh;
+    animation: slideLeft 0.2s;
+    visibility: hidden;
 }
 
 .left.open {
     left: 0;
+}
+
+.overlay {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: var(--ts-drawer-overlay-z-index);
+    background-color: var(--ts-drawer-overlay-bg-color);
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlay.open {
+    opacity: 1;
+}
+
+.open {
+    transition: var(--ts-drawer-open-transition);
+    visibility: initial;
 }

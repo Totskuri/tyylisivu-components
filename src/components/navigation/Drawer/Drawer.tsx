@@ -28,34 +28,41 @@ const Drawer = ({
     useOnClickOutside(ref, handleClose);
     const getOpenClass = () => isOpen ? styles.open : '';
     const getPositionClass = () => styles[position];
-    return (
-        <div
-            ref={ref}
-            className={classNames([
-                styles.drawer,
-                getOpenClass(),
-                getPositionClass(),
-                className
-            ])}
-            style={style}
-        >
-            <div className={styles.body}>
-                {iconClose && (
-                    <div className={styles.iconContainer}>
-                        <button
-                            type="button"
-                            onClick={handleClose}
-                            className={styles.closeButton}
-                            aria-label="Close drawer"
-                        >
-                            {iconClose}
-                        </button>
 
-                    </div>
-                )}
-                {children}
+    return (
+        <>
+            <div className={classNames([
+                styles.overlay,
+                getOpenClass()
+            ])} />
+            <div
+                ref={ref}
+                className={classNames([
+                    styles.drawer,
+                    getOpenClass(),
+                    getPositionClass(),
+                    className
+                ])}
+                style={style}
+            >
+                <div className={styles.body}>
+                    {iconClose && (
+                        <div className={styles.iconContainer}>
+                            <button
+                                type="button"
+                                onClick={handleClose}
+                                className={styles.closeButton}
+                                aria-label="Close drawer"
+                            >
+                                {iconClose}
+                            </button>
+
+                        </div>
+                    )}
+                    {children}
+                </div>
             </div>
-        </div>
+        </>
     );
 };
 
