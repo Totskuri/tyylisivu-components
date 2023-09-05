@@ -23,48 +23,52 @@
 
 .top {
     left: 0;
-    top: calc(var(--ts-drawer-size) * -1);
+    top: 0;
     width: 100vw;
     height: var(--ts-drawer-size);
+    transform: translateY(-100%);
 }
 
 .top.open {
-    top: 0;
+    transform: translateY(0);
 }
 
 .right {
     top: 0;
-    right: calc(var(--ts-drawer-size) * -1);
+    right: 0;
     width: var(--ts-drawer-size);
     height: 100vh;
+    transform: translateX(100%);
 }
 
 .right.open {
-    right: 0;
+    transform: translateX(0);
 }
 
 .bottom {
     left: 0;
-    bottom: calc(var(--ts-drawer-size) * -1);
+    bottom: 0;
     width: 100vw;
     height: var(--ts-drawer-size);
+    transform: translateY(100%);
 }
 
 .bottom.open {
-    bottom: 0;
+    transform: translateY(0);
 }
 
 .left {
     top: 0;
-    left: calc(var(--ts-drawer-size) * -1);
+    left: 0;
     width: var(--ts-drawer-size);
     height: 100vh;
     animation: slideLeft 0.2s;
     visibility: hidden;
+    transform: translateX(-100%);
 }
 
 .left.open {
-    left: 0;
+    transform: translateX(0);
 }
 
 .overlay {
